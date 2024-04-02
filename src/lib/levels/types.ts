@@ -11,7 +11,15 @@ export type Dialogue = {
     character: string;
     text: string;
 }
-export type Script = Dialogue[];
+
+export type Choice = {
+    question: Dialogue;
+    options: string[];
+    key: number[];
+    type: "multiple-select" | "single-select" | "short-answer";
+}
+
+export type Script = (Dialogue | Choice)[];
 export enum StageName {
     Intro = "Intro",
     Test = "Test",

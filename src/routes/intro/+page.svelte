@@ -1,15 +1,15 @@
-<script>
+<script lang="ts">
 	import Progress from "$lib/components/progress.svelte";
 	import { Button } from "$lib/components/ui/button";
-	import { StageName } from "$lib/levels/types";
+	import { StageName, type Dialogue } from "$lib/levels/types";
 	import { currentLevel, currentDialogIndex } from "$lib/stores/level-store";
     
     let currentDialog = "";
     let currentCharacterUrl = "";
     $: {
         if ($currentLevel){
-            currentDialog = $currentLevel.stages[0].script[$currentDialogIndex].text;
-            const currentCharacterName = $currentLevel.stages[0].script[$currentDialogIndex].character;
+            currentDialog = ($currentLevel.stages[0].script[$currentDialogIndex] as Dialogue).text;
+            const currentCharacterName = ($currentLevel.stages[0].script[$currentDialogIndex] as Dialogue).character;
             currentCharacterUrl = $currentLevel.stages[0].scene.cast.filter(c => c.name === currentCharacterName).map(c => currentCharacterUrl = c.image)[0];
         }
     }

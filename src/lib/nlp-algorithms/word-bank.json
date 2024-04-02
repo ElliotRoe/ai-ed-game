@@ -1,0 +1,124 @@
+{
+    "words": [
+        {
+            "word": "love",
+            "type": ["noun", "verb"],
+            "sentiment": 1
+        },
+        {
+            "word": "hate",
+            "type": ["noun", "verb"],
+            "sentiment": -1
+        },
+        {
+            "word": "happy",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "sad",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "good",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "bad",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "beautiful",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "ugly",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "kind",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "mean",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "smart",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "stupid",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "funny",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "boring",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "exciting",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "scary",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "brave",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "cowardly",
+            "type": ["adjective"],
+            "sentiment": -1
+        },
+        {
+            "word": "strong",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "coffee",
+            "type": ["noun"],
+            "sentiment": 1
+        },
+        {
+            "word": "great",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "lovely",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "fun",
+            "type": ["adjective"],
+            "sentiment": 1
+        },
+        {
+            "word": "Janet",
+            "type": ["noun"],
+            "sentiment": 1
+        }
+    ]
+}
